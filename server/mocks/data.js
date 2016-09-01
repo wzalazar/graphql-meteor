@@ -6,11 +6,11 @@ import Post from '../collections/post';
 Meteor.startup(function () {
   Author.remove({});
   Post.remove({});
-  
+
   // create mock data with a seed, so we always get the same
   casual.seed(123);
 
-  times(10, () => {
+  times(100, () => {
     return Author.insert({
       firstName: casual.first_name,
       lastName: casual.last_name,

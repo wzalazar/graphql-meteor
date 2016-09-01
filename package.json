@@ -15,6 +15,10 @@
     "graphql-tag": "^0.1.11",
     "graphql-tools": "^0.6.4",
     "lodash": "^4.15.0",
-    "meteor-node-stubs": "~0.2.0"
+    "meteor-node-stubs": "~0.2.0",
+    "react": "^15.3.1",
+    "react-apollo": "^0.4.7",
+    "react-dom": "^15.3.1",
+    "redux": "^3.5.2"
   }
 }
